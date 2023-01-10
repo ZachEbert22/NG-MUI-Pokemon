@@ -7,21 +7,15 @@ import { ContactPage } from "./pages/ContactPage";
 
 export function App() {
   return (
-    <>
+  
       <BrowserRouter>
-        <NavBar />
+        
         <Routes>
-          <Route path="/" >
-            <HomePage />
-          </Route>
-          <Route path="/about">
-            <AboutPage />
-          </Route>
-          <Route path="/contact">
-            <ContactPage />
-          </Route>
+          <Route path="/" element = {<HomePage />} />
+          <Route path="/about" element = {<AboutPage />} />
+          <Route path="/contact" element = {<ContactPage />} />
         </Routes>
       </BrowserRouter>
-    </>
+  
   );
 }

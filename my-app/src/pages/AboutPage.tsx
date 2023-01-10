@@ -1,4 +1,8 @@
+import { NavBar } from "../NavBar";
 export function AboutPage() {
-    return <h1>About Page</h1>;
+    return (<div>
+      <a>About Page</a>
+      <NavBar></NavBar>
+      </div>);
   }
   

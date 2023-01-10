@@ -1,4 +1,6 @@
-export function HomePage() {
-    return <h1>Home Page</h1>;
+export const HomePage =(): JSX.Element => {
+  
+  
+    return <div>Home Page</div>;
   }
   
