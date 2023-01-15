@@ -1,15 +1,18 @@
 import { NavLink } from "react-router-dom";
-
+import './NavBar.css'
 
 
 export function NavBar() {
   return (
-    <nav className="navbar-container">
-      <NavLink to="/">
-        Home
-      </NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-    </nav>
+    <div className = "format">
+      <nav className="navbar-container">
+        <img src = "https://seeklogo.com/images/P/pokeball-logo-DC23868CA1-seeklogo.com.png" 
+          alt="Loading..."
+          className="img"></img>
+        <NavLink to="/" className="Home">Home</NavLink>
+        <NavLink to="/about" className="About">About</NavLink>
+        <NavLink to="/contact" className="Contact">Contact</NavLink>
+      </nav>
+    </div>
   );
 }
