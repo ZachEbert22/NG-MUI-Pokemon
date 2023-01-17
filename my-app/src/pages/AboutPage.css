@@ -1,4 +1,29 @@
 .row1-container{
     color:red;
+    display: flex;
+    
+}
+
+.row2-container{
+    color:red;
     display:flex
+}
+
+.col1-container{
+    color: blue;
+}
+.col2-container{
+    color:blue;
+    margin-left:15%;
+    justify-content: center;
+}
+.col3-container{
+    color:blue;
+    margin-left: 22%;
+}
+.sec1-container{
+    color:blue;
+}
+.sec2-container{
+    color:green
 }
