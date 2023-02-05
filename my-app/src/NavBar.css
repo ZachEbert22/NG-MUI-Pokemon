@@ -1,22 +1,29 @@
 .format{
-    background-color: yellow;
+    background-color: rgb(29, 29, 29);
     text-align:center;
     font-size: xx-large;
+    color: white;
 }
 .Home{
-    margin-bottom: 1000px;
     
-    background-color: red;
     
+    color:white;
+    margin-right: 25%;
 }
 .Contact{
-    padding-left: 1000px;
-    background-color: red;
+    
+    color:white;
+    margin-right:20%;
 }
 .About{
-    background-color: red;
+    color:white;
+    margin-right: 20%;
+}
+.Typing{
+    color:white;
 }
 .img{
     width: 70px;
     padding-top: 0px;
+    margin-right:1%;
 }

@@ -4,6 +4,7 @@ import { NavBar } from "./NavBar";
 import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
+import { TypingPage } from "./pages/Typing";
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
           <Route path="/" element = {<HomePage />} />
           <Route path="/about" element = {<AboutPage />} />
           <Route path="/contact" element = {<ContactPage />} />
+          <Route path="/typing" element = {<TypingPage />} />
         </Routes>
       </BrowserRouter>
   

@@ -11,7 +11,8 @@ export function NavBar() {
           className="img"></img>
         <NavLink to="/" className="Home">Home</NavLink>
         <NavLink to="/about" className="About">About</NavLink>
-        <NavLink to="/contact" className="Contact">Contact</NavLink>
+        <NavLink to="/contact" className="Contact">Rankings</NavLink>
+        <NavLink to="/typing" className="Typing">Typing</NavLink>
       </nav>
     </div>
   );

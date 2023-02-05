@@ -3,27 +3,37 @@
     display: flex;
     
 }
-
+.background{
+    color: black;
+    background-color: rgb(180, 58, 58);
+    
+}
 .row2-container{
-    color:red;
+    color:rgb(252, 46, 46);
     display:flex
 }
 
 .col1-container{
-    color: blue;
+    color: black;
 }
 .col2-container{
-    color:blue;
-    margin-left:15%;
+    color:black;
+    margin-left:10%;
     justify-content: center;
 }
 .col3-container{
-    color:blue;
-    margin-left: 22%;
+    color:black;
+    margin-left: 15%;
 }
 .sec1-container{
-    color:blue;
+    color:black;
+    margin-left: 15%;
 }
 .sec2-container{
-    color:green
+    color:black;
+    margin-left: 15%;
+    margin-top: 1.5%;
+}
+.header{
+    margin-left: 35%;
 }
