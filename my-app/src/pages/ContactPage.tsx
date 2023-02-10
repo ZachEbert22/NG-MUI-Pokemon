@@ -4,10 +4,10 @@ import { rankingPageItem } from "../data/rankingItem"
 import './ContactPage.css'
 export function ContactPage() {
 
-    return (<div>
+    return (<div style={{backgroundColor: "rgb(59, 128, 255)"}}>
       <div><NavBar></NavBar></div>
       
-      <div style={{backgroundColor: "rgb(59, 128, 255)"}}>
+      <div>
       <h1 style={{padding: "10px 800px"}}>Rankings-All Sword and Shield Sets</h1>
       {rankingPageItem.map((item:RankingDataProps)=>{
         return(

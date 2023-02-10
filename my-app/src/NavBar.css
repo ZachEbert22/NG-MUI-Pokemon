@@ -8,16 +8,16 @@
     
     
     color:white;
-    margin-right: 25%;
+    margin-right: 20%;
 }
 .Contact{
     
     color:white;
-    margin-right:20%;
+    margin-right:15%;
 }
 .About{
     color:white;
-    margin-right: 20%;
+    margin-right: 15%;
 }
 .Typing{
     color:white;
@@ -26,4 +26,8 @@
     width: 70px;
     padding-top: 0px;
     margin-right:1%;
+}
+.Combo{
+    color: white;
+    margin-left: 15%;
 }

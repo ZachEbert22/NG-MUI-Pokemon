@@ -13,6 +13,7 @@ export function NavBar() {
         <NavLink to="/about" className="About">About</NavLink>
         <NavLink to="/contact" className="Contact">Rankings</NavLink>
         <NavLink to="/typing" className="Typing">Typing</NavLink>
+        <NavLink to="/combo" className="Combo">Combo</NavLink>
       </nav>
     </div>
   );
