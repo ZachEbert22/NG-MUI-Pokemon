@@ -9,8 +9,8 @@ export function HomePage() {
   return(<div>
     <div><NavBar></NavBar></div>
     
-    <div style = {{display: "flex", flexWrap: "wrap", backgroundColor: "rgb(180, 58, 58)"}}>
-    <h1 style={{padding: "0px 900px"}}>About Page - Each Set</h1>
+    <div style = {{display: "flex", flexWrap: "wrap", backgroundColor: "rgb(226, 176, 74)"}}>
+    <h1 style={{padding: "0px 900px"}}>What is your favorite Pokemon?</h1>
     {HomePageUnit.map((data:HomeUnitProps)=>{
       return(
       <div style = {{padding: "50px 100px"}}>
