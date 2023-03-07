@@ -2,6 +2,7 @@ import { NavBar } from "../NavBar"
 import { RankingDataProps } from "../models/rankingItemProps"
 import { rankingPageItem } from "../data/rankingItem"
 import './ContactPage.css'
+
 export function ContactPage() {
 
     return (<div style={{backgroundColor: "rgb(59, 128, 255)"}}>

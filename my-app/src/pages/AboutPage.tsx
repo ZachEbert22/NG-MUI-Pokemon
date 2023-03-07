@@ -1,3 +1,4 @@
+
 import { NavBar } from "../NavBar";
 import './AboutPage.css'
 import { imgObject } from "../common/Images";
@@ -12,7 +13,7 @@ export function AboutPage() {
     <h1 style={{padding: "0px 900px"}}>About Page - Each Set</h1>
     {aboutPageData.map((data:AboutDataProps)=>{
       return(
-      <div style = {{padding: "50px 100px"}}>
+      <div style = {{padding: "1% 6%"}}>
         <img src = {`${data.image}`} style = {{width: "500px", height: "300px"}}/>
         <h2>{data.title}</h2>
         <h3>{data.desc1}</h3>
