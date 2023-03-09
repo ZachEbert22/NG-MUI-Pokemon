@@ -1,7 +1,6 @@
 import { NavBar } from "../NavBar";
 import './AboutPage.css'
-import { imgObject } from "../common/Images";
-import {aboutPageData} from "../data/aboutData";
+
 import { HomeUnitProps } from "../models/homeUnitProps";
 import { HomePageUnit } from "../data/homeUnit";
 import FormControlLabel from '@mui/material/FormControlLabel';
