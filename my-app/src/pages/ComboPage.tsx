@@ -25,9 +25,9 @@ import { ComboInfoProps } from "../models/comboInfoProps";
 import { ComboPageInfo } from "../data/ComboInfo";
 
 export function ComboPage() {
-  return(<Box style = {{backgroundColor: "rgb(131, 57, 173)"}}>
+  return(<Box style = {{backgroundColor: "rgb(100, 97, 255)"}}>
     <Box><NavBar></NavBar></Box>
-    <h1 style={{padding: "1% 40%"}}>Combonations Page</h1>
+    <h1 style={{padding: "1% 40%"}}>Combonations Page!</h1>
     <Box style = {{display: "flex", flexWrap: "wrap" }}>
     
     {ComboPageInfo.map((data:ComboInfoProps)=>{
