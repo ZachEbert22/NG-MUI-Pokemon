@@ -18,7 +18,7 @@ export const HomeRadio = ({ pokemonData, onChange }: HomeRadioProps): JSX.Elemen
   };
 
   return (
-    <FormControl style={{ padding: '50px 1%' }}>
+    <FormControl style={{ padding: '50px 01%' }}>
       <FormLabel id="demo-radio-buttons-group-label">{pokemonData.title}</FormLabel>
       <RadioGroup
         aria-labelledby="demo-radio-buttons-group-label"
@@ -32,6 +32,15 @@ export const HomeRadio = ({ pokemonData, onChange }: HomeRadioProps): JSX.Elemen
         <FormControlLabel value={pokemonData.desc4} control={<Radio />} label={pokemonData.desc4} />
         <FormControlLabel value={pokemonData.desc5} control={<Radio />} label={pokemonData.desc5} />
         <FormControlLabel value={pokemonData.desc6} control={<Radio />} label={pokemonData.desc6} />
+        <input
+          style={{ backgroundColor: 'rgb(210, 150, 255)', color: 'red' }}
+          name="test"
+          placeholder="or Enter it Here for a different grass starter!"
+          onChange={handleChange}
+        />
+        <h1>
+          Your Favorite Starter: <span>{value}</span>
+        </h1>
       </RadioGroup>
     </FormControl>
   );

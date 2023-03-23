@@ -16,10 +16,10 @@ export function HomePage() {
       </div>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', backgroundColor: 'rgb(210, 97, 255)' }}>
-        <h1 style={{ padding: '0px 900px' }}>What is your favorite Pokemon?</h1>
+        <h1 style={{ padding: '0px 900px', color: 'white' }}>What is your favorite Pokemon?</h1>
         {HomePageUnit.map((data: HomeUnitProps) => {
           return (
-            <div style={{ padding: '2% 03.75%' }}>
+            <div style={{ padding: '2% 02%' }}>
               <img src={`${data.image}`} style={{ width: '600px', height: '300px' }} />
               <HomeRadio pokemonData={data} onChange={handleChange} />
             </div>
