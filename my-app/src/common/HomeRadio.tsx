@@ -33,7 +33,7 @@ export const HomeRadio = ({ pokemonData, onChange }: HomeRadioProps): JSX.Elemen
         <FormControlLabel value={pokemonData.desc5} control={<Radio />} label={pokemonData.desc5} />
         <FormControlLabel value={pokemonData.desc6} control={<Radio />} label={pokemonData.desc6} />
         <input
-          style={{ backgroundColor: 'rgb(210, 150, 255)', color: 'red' }}
+          style={{ backgroundColor: 'rgb(210, 150, 255)', padding: "10px 30px" }}
           name="test"
           placeholder="or Enter it Here for a different starter!"
           onChange={handleChange}
