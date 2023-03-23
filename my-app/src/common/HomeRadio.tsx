@@ -35,7 +35,7 @@ export const HomeRadio = ({ pokemonData, onChange }: HomeRadioProps): JSX.Elemen
         <input
           style={{ backgroundColor: 'rgb(210, 150, 255)', color: 'red' }}
           name="test"
-          placeholder="or Enter it Here for a different grass starter!"
+          placeholder="or Enter it Here for a different starter!"
           onChange={handleChange}
         />
         <h1>

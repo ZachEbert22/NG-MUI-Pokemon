@@ -6,6 +6,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { TypingPage } from "./pages/Typing";
 import { ComboPage } from "./pages/ComboPage";
+import { TeamPage } from "./pages/TeamPage";
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
           <Route path="/contact" element = {<ContactPage />} />
           <Route path="/typing" element = {<TypingPage />} />
           <Route path="/combo" element = {<ComboPage />} />
+          <Route path="/teams" element = {<TeamPage />} />
         </Routes>
       </BrowserRouter>
   

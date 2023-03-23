@@ -14,6 +14,7 @@ export function NavBar() {
         <NavLink to="/contact" className="Contact">Rankings</NavLink>
         <NavLink to="/typing" className="Typing">Typing</NavLink>
         <NavLink to="/combo" className="Combo">Combo</NavLink>
+        <NavLink to="/teams" className="teams">Team Builder</NavLink>
       </nav>
     </div>
   );
